@@ -1,0 +1,85 @@
+h1{
+    color:#800080;
+    margin-left: 50px;
+    
+}
+
+h2{
+    color: #f30000;
+    text-align: center;
+}
+
+h3{
+    color:#9370DB;
+}
+
+/**{
+    border:solid;
+}*/
+
+.Cabecalho{
+ background-color:	#DA70D6;
+ display: flex;
+ justify-content:space-between;
+ font-size:30px;
+ border: solid;
+
+}
+
+.ProjetosDeJogos{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+
+.Redes{
+ display: flex;
+ justify-content: flex-end;
+ margin: 10px 50px 20px 0;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    background-color:#DDA0DD;
+    border:solid;
+}
+a:link{
+    color: #00008B;
+ }
+ 
+a:visited{
+    color: #DC143C;
+ }
+
+
+.Menu{
+    margin-right: 30px;
+    margin-top: 68px;
+}
+
+.Menu a{
+    margin-left: 20px;
+}
+
+.Jogos{
+    position: relative;
+}
+
+.Jogos h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.Jogos:hover h2{
+   opacity: 1;
+}
+
+.Jogos:hover img{
+    opacity: 0.5;
+}
